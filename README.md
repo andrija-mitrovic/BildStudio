@@ -10,7 +10,7 @@
 * In Solution Explorer, ensure src\WebAPI is the startup project.
 * Call dotnet run.
 
-##Visual Studio
+## Visual Studio
 * Download Visual Studio 2019 (any edition) from https://www.visualstudio.com/downloads/
 * Update the connection string in appsettings.json
 * Open BildStudio.sln and wait for Visual Studio to restore all Nuget packages.
