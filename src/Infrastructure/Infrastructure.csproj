@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20210217095500_UpdateDatabaseRelationDeviceTypePropertyAndDevice.cs" />
+    <Compile Remove="Data\Migrations\20210217095500_UpdateDatabaseRelationDeviceTypePropertyAndDevice.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210218084322_UpdateColumnDeviceTypeRelation1.cs" />
+    <Compile Remove="Data\Migrations\20210218084322_UpdateColumnDeviceTypeRelation1.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210219094006_UpdateDatabaseRelation.cs" />
+    <Compile Remove="Data\Migrations\20210219094006_UpdateDatabaseRelation.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+  </ItemGroup>
+
+</Project>

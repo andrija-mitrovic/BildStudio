@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.DevicesController.GetDevices(ApplicationCore.Helpers.PagingParams)">
+            <summary>
+            Return list of devices
+            </summary>
+        </member>
+        <member name="M:WebAPI.Controllers.DevicesController.GetDevice(System.Int32)">
+            <summary>
+            Find device by id
+            </summary>
+            <param name="id">The ID of the desired device</param>
+        </member>
+        <member name="M:WebAPI.Controllers.DevicesController.CreateDevice(ApplicationCore.DTOs.Device.DeviceCreateDto)">
+            <summary>
+            Create device
+            </summary>
+            <param name="deviceCreateDto">The device object that needs to be added</param>
+        </member>
+        <member name="M:WebAPI.Controllers.DevicesController.UpdateDevice(System.Int32,ApplicationCore.DTOs.Device.DeviceUpdateDto)">
+            <summary>
+            Update device by id
+            </summary>
+            <param name="id">The ID of the desired device</param>
+            <param name="deviceUpdateDto">The device object that needs to be updated</param>
+        </member>
+        <member name="M:WebAPI.Controllers.DevicesController.DeleteDevice(System.Int32)">
+            <summary>
+            Delete device by id
+            </summary>
+            <param name="id">The ID of the desired device</param>
+        </member>
+        <member name="M:WebAPI.Controllers.DeviceTypesController.GetDeviceTypes(ApplicationCore.Helpers.PagingParams)">
+            <summary>
+            Return list of device type
+            </summary>
+        </member>
+        <member name="M:WebAPI.Controllers.DeviceTypesController.GetDeviceType(System.Int32)">
+            <summary>
+            Find device type by id
+            </summary>
+            <param name="id">The ID of the desired device</param>
+        </member>
+        <member name="M:WebAPI.Controllers.DeviceTypesController.CreateDeviceType(ApplicationCore.DTOs.DeviceType.DeviceTypeCreateDto)">
+            <summary>
+            Create device type
+            </summary>
+            <param name="deviceTypeCreateDto">The device type object that needs to be added</param>
+        </member>
+        <member name="M:WebAPI.Controllers.DeviceTypesController.UpdateDeviceType(System.Int32,ApplicationCore.DTOs.DeviceType.DeviceTypeUpdateDto)">
+            <summary>
+            Update device type by id
+            </summary>
+            <param name="id">The ID of the desired device type</param>
+            <param name="deviceTypeUpdateDto">The device type object that needs to be updated</param>
+        </member>
+        <member name="M:WebAPI.Controllers.DeviceTypesController.DeleteDeviceType(System.Int32)">
+            <summary>
+            Delete device by id
+            </summary>
+            <param name="id">The ID of the desired device type</param>
+        </member>
+    </members>
+</doc>
